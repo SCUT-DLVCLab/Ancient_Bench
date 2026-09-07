@@ -6,7 +6,7 @@
 
 Official evaluation script for the Ancient Chinese OCR benchmark, covering **9 artifact carriers**: oracle bones, bronzes, bamboo/wooden slips, silk manuscripts, seals, stele rubbings, cliff carvings, book editions, and calligraphy.
 
-The repo ships the **real benchmark annotations plus predictions from two demo models** (2,700 samples across 9 categories). Clone it, run `python run.py`, and the full pipeline completes in ~12 seconds.
+The repo ships the **real benchmark annotations plus predictions from two demo models** (2,700 samples across 9 categories). Clone it, run `python run.py`, and the full pipeline completes.
 
 ---
 
