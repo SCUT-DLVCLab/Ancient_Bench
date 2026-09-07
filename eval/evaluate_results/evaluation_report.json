@@ -1,0 +1,96 @@
+{
+    "demo-model-a": {
+        "oracle_bone_artifacts": {
+            "total_edit_score": 300.0,
+            "total_f1_score": 300.0,
+            "count": 300
+        },
+        "bronze_rubbings": {
+            "total_edit_score": 250.0,
+            "total_f1_score": 250.0,
+            "count": 250
+        },
+        "bamboo_wooden_slips": {
+            "total_edit_score": 300.0,
+            "total_f1_score": 300.0,
+            "count": 300
+        },
+        "silk_manuscripts": {
+            "total_edit_score": 300.0,
+            "total_f1_score": 300.0,
+            "count": 300
+        },
+        "seals": {
+            "total_edit_score": 350.0,
+            "total_f1_score": 350.0,
+            "count": 350
+        },
+        "inscription_rubbings": {
+            "total_edit_score": 300.0,
+            "total_f1_score": 300.0,
+            "count": 300
+        },
+        "cliff_carvings": {
+            "total_edit_score": 200.0,
+            "total_f1_score": 200.0,
+            "count": 200
+        },
+        "traditional_chinese_book_editions": {
+            "total_edit_score": 300.0,
+            "total_f1_score": 300.0,
+            "count": 300
+        },
+        "calligraphys": {
+            "total_edit_score": 400.0,
+            "total_f1_score": 400.0,
+            "count": 400
+        }
+    },
+    "demo-model-b": {
+        "oracle_bone_artifacts": {
+            "total_edit_score": 274.54596226213897,
+            "total_f1_score": 286.03609169748347,
+            "count": 300
+        },
+        "bronze_rubbings": {
+            "total_edit_score": 223.3561250839369,
+            "total_f1_score": 235.23508144210942,
+            "count": 250
+        },
+        "bamboo_wooden_slips": {
+            "total_edit_score": 258.2362169955262,
+            "total_f1_score": 277.0340406051371,
+            "count": 300
+        },
+        "silk_manuscripts": {
+            "total_edit_score": 253.0586780208202,
+            "total_f1_score": 273.9849208263209,
+            "count": 300
+        },
+        "seals": {
+            "total_edit_score": 300.17506999252566,
+            "total_f1_score": 322.08434695926684,
+            "count": 350
+        },
+        "inscription_rubbings": {
+            "total_edit_score": 243.29688742582903,
+            "total_f1_score": 268.6003838941641,
+            "count": 300
+        },
+        "cliff_carvings": {
+            "total_edit_score": 176.46052711527068,
+            "total_f1_score": 186.9219470499328,
+            "count": 200
+        },
+        "traditional_chinese_book_editions": {
+            "total_edit_score": 229.52855251339054,
+            "total_f1_score": 261.2216747915237,
+            "count": 300
+        },
+        "calligraphys": {
+            "total_edit_score": 325.3047783439622,
+            "total_f1_score": 358.62911480381575,
+            "count": 400
+        }
+    }
+}
