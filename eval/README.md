@@ -109,8 +109,8 @@ Change three things in `config.yaml`:
 ```yaml
 evaluation_setup:
   selected_apis:                  # ① your model names = dir names under root_dir
-    - my-model-v1
-    - my-model-v2
+    - model-v1
+    - model-v2
 
   paths:
     root_dir: "./infer_results"   # ② prediction root
