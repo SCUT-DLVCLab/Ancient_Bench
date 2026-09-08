@@ -192,8 +192,8 @@ score = 1 - Levenshtein(gt, pred) / max(len(gt), len(pred))
 
 ```bibtex
 @article{ancientbench,
-  title  = {Ancient-Bench: A Benchmark for Ancient Chinese OCR},
-  author = {TODO},
-  year   = {2026}
+  title  = {Ancient-Bench: A Comprehensive Multi-millennial, Multi-medium, and Multi-script Benchmark for Ancient Chinese Artifact Text Recognition},
+  author = {Hiuyi Cheng, Nuo Xu, Yuyi Zhang, Xuhan Zheng, Wei Pan, Jing Zhang, Dezhi Peng, Minghui Liao, Yihua Teng, Jihao Wu, Haoyu Ren, Lianwen Jin},
+  year   = {EMNLP 2026}
 }
 ```
