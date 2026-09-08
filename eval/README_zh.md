@@ -111,8 +111,8 @@ demo-model-b & 0.92 / 0.95 & 0.89 / 0.94 & 0.86 / 0.92 & 0.84 / 0.91 & 0.86 / 0.
 ```yaml
 evaluation_setup:
   selected_apis:                  # ① 你的模型名 = root_dir 下的目录名
-    - my-model-v1
-    - my-model-v2
+    - model-v1
+    - model-v2
 
   paths:
     root_dir: "./infer_results"   # ② 推理结果根目录
