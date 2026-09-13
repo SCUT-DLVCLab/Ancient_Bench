@@ -3,7 +3,7 @@
 # Ancient-Bench: A Comprehensive Multi-millennial, Multi-medium, and Multi-script Benchmark for Ancient Chinese Artifact Text Recognition
 
 [![Paper](https://img.shields.io/badge/arXiv-2608.27169-B31B1B.svg)](https://arxiv.org/abs/2608.27169)
-[![Dataset HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](YOUR_HUGGINGFACE_LINK_HERE)
+[![Dataset HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/hiuyi/Ancient-Bench)
 [![Baidu Netdisk](https://img.shields.io/badge/Baidu%20Netdisk-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98-06A7FF)](https://pan.baidu.com/s/1Vx8vllHY51wT8aSOa_kGXA?pwd=54su)
 
 **English** | [**中文简体**](README_zh.md)
@@ -23,8 +23,22 @@
 | Platform | Link | Extraction Code / Notes |
 | :--- | :--- | :---: |
 | **Baidu Netdisk (百度网盘)** | [🔗 Click to Download from Baidu Netdisk](https://pan.baidu.com/s/1Vx8vllHY51wT8aSOa_kGXA?pwd=54su) | **`54su`** |
-| **Hugging Face** | [🤗 Dataset Repository](YOUR_HUGGINGFACE_LINK_HERE) | Direct Access |
+| **Hugging Face** | [🤗 Dataset Repository](https://huggingface.co/datasets/hiuyi/Ancient-Bench) | Direct Access |
 
+
+You can also download directly via Python using `huggingface_hub`:
+
+```python
+from huggingface_hub import hf_hub_download
+
+zip_path = hf_hub_download(
+    repo_id="hiuyi/Ancient-Bench",
+    filename="Ancient-Bench.zip",
+    repo_type="dataset",
+    local_dir="./",
+)
+print(f"Dataset downloaded to: {zip_path}")
+```
 ---
 
 ## 📌 Overview
