@@ -1,8 +1,3 @@
----
-
-### 第二部分：中文独立版 `README_zh.md`
-
-```markdown
 <div align="center">
 
 # Ancient-Bench: 跨三千年、多载体、全书体的古代文物与古籍文字识别基准数据集
