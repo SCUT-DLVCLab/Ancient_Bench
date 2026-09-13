@@ -3,7 +3,7 @@
 # Ancient-Bench: 跨三千年、多载体、全书体的古代文物与古籍文字识别基准数据集
 
 [![Paper](https://img.shields.io/badge/arXiv-2608.27169-B31B1B.svg)](https://arxiv.org/abs/2608.27169)
-[![Dataset HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](YOUR_HUGGINGFACE_LINK_HERE)
+[![Dataset HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/hiuyi/Ancient-Bench)
 [![Baidu Netdisk](https://img.shields.io/badge/Baidu%20Netdisk-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98-06A7FF)](https://pan.baidu.com/s/1Vx8vllHY51wT8aSOa_kGXA?pwd=54su)
 
 [**English**](README.md) | **中文简体**
@@ -23,8 +23,21 @@
 | 下载平台 | 访问链接 | 提取码 / 备注 |
 | :--- | :--- | :---: |
 | **百度网盘** | [🔗 点击进入百度网盘下载页面](https://pan.baidu.com/s/1Vx8vllHY51wT8aSOa_kGXA?pwd=54su) | **`54su`** |
-| **Hugging Face** | [🤗 数据集主页直达](YOUR_HUGGINGFACE_LINK_HERE) | 无需提取码 |
+| **Hugging Face** | [🤗 数据集主页直达](https://huggingface.co/datasets/hiuyi/Ancient-Bench) | 无需提取码 |
 
+你也可以直接使用 Python 的 huggingface_hub 库进行下载：
+```python
+from huggingface_hub import hf_hub_download
+
+# 使用 huggingface_hub 直接下载 zip 压缩包到当前目录
+zip_path = hf_hub_download(
+    repo_id="hiuyi/Ancient-Bench",
+    filename="Ancient-Bench.zip",
+    repo_type="dataset",
+    local_dir="./",
+)
+print(f"数据集已成功下载至: {zip_path}")
+```
 ---
 
 ## 📌 数据集概述
