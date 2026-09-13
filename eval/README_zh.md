@@ -191,9 +191,10 @@ score = 1 - Levenshtein(gt, pred) / max(len(gt), len(pred))
 如果本 benchmark 对你的研究有帮助，请引用我们的论文。
 
 ```bibtex
-@article{ancientbench,
-  title  = {Ancient-Bench: A Comprehensive Multi-millennial, Multi-medium, and Multi-script Benchmark for Ancient Chinese Artifact Text Recognition},
-  author = {Hiuyi Cheng, Nuo Xu, Yuyi Zhang, Xuhan Zheng, Wei Pan, Jing Zhang, Dezhi Peng, Minghui Liao, Yihua Teng, Jihao Wu, Haoyu Ren, Lianwen Jin},
-  year   = {EMNLP 2026}
+@inproceedings{cheng2026ancientbench,
+  title={Ancient-Bench: A Comprehensive Multi-millennial, Multi-medium, and Multi-script Benchmark for Ancient Chinese Artifact Text Recognition},
+  author={Cheng, Hiuyi and Xu, Nuo and Zhang, Yuyi and Zheng, Xuhan and Pan, Wei and Zhang, Jing and Peng, Dezhi and Liao, Minghui and Teng, Yihua and Wu, Jihao and Ren, Haoyu and Jin, Lianwen},
+  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2026},
+  url={https://arxiv.org/abs/2608.27169}
 }
-```
